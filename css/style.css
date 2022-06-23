@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;500;600&family=Nunito:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background: #1D4350;
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+    background: linear-gradient(to right, #A43931, #1D4350);
+}
+
+.container__form{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    display: flex;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    background-color: #1D4350;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bximg{
+    width: 20px;
+}
+
+input{
+    width: 80%;
+    height: 35px;
+    border: none;
+    background-color: #1D4350;
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    outline: #1D4350;
+    text-align: center;
+}
+
+.registrarse:hover{
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+
+@media screen and (max-width: 440px) {
+    .container__form{
+        width: 300px;
+        margin: 45px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container__form{
+        width: 250px;
+    }
+}
